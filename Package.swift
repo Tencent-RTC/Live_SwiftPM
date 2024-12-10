@@ -20,17 +20,17 @@ let package = Package(
         .binaryTarget(
             name: "TXLiteAVSDK_Live",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.2/live/TXLiteAVSDK_Live.xcframework.zip",
-            checksum: "bd074e63cb98b8ffe34a15bcb283fc8e5cdacbb59392a122be0fb84c538059fb"
+            checksum: "b111ffeca4e18670ebe74fb49b8115244d218c643bbf92d20aa6372d71c1afbe"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.2/live/TXFFmpeg.xcframework.zip",
-            checksum: "1c23cc99ac18f6b3d932ebc1fb967f6595b96be979d55940b0fb352e97c33e38"
+            checksum: "70d3916bd5c89122ce819adc844354aaabab4bf41451afcfe125818c844776fc"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.2/live/TXSoundTouch.xcframework.zip",
-            checksum: "49d01a3c37d130eef3bb633bdbb546e22c7d221248976bca7312f2e8a19352b6"
+            checksum: "1f79e623c1358af85a539d4e9b7aa8f508565740cdeba65f3e5beaf083a80d1d"
         ),.target(
             name: "Live_SwiftPM",
             dependencies: [
