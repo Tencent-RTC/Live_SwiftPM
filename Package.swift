@@ -13,6 +13,9 @@ let package = Package(
         .library(
             name: "Live_SwiftPM",
             targets: ["Live_SwiftPM"]),
+        .library(
+            name: "TXLiteAVSDK_ReplayKit",
+            targets: ["TXLiteAVSDK_ReplayKitExt"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -28,6 +31,11 @@ let package = Package(
             checksum: "33b093f50b1eb2d06ce022905aa6a3f13a63531baa3fe50f120cb5ffa9a7b36e"
         ),
         .binaryTarget(
+            name: "TXLiteAVSDK_ReplayKitExt",
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.2/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "6735c24f1ae1a5acb75886b47eaa032ee4a99cd99fa0719638216721ddede152"
+        ),
+        .binaryTarget(
             name: "TXSoundTouch",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.2/live/TXSoundTouch.xcframework.zip",
             checksum: "787a52631475bb579b2d7c54b6ed3225b23ddfb7a8032e8c1187d57bb17c4575"
@@ -40,6 +48,8 @@ let package = Package(
             ],
             sources: ["Live_SwiftPM.swift"],
             linkerSettings: [
+                .linkedFramework("ReplayKit"),
+                .linkedFramework("VideoToolbox"),
                 .linkedFramework("AVKit"),
                 .linkedFramework("GLKit"),
                 .linkedFramework("AssetsLibrary"),
@@ -56,6 +66,12 @@ let package = Package(
                 .linkedLibrary("c++"),
                 .linkedLibrary("resolv")
             ]
+        ),.target(
+            name: "TXLiteAVSDK_ReplayKit",
+            dependencies: [
+                .target(name: "TXLiteAVSDK_ReplayKitExt")
+            ],
+            sources: ["TXLiteAVSDK_ReplayKitExt.swift"]
         )
     ]
 )
