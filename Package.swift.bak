@@ -38,7 +38,7 @@ let package = Package(
         .binaryTarget(
             name: "TXSoundTouch",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.2/live/TXSoundTouch.xcframework.zip",
-            checksum: "9ea6f5f1af836a3d109ea31c404e812f4da57d3fc8fb4e3fd1a24603af1c5474"
+            checksum: "787a52631475bb579b2d7c54b6ed3225b23ddfb7a8032e8c1187d57bb17c4575"
         ),.target(
             name: "Live_SwiftPM",
             dependencies: [
