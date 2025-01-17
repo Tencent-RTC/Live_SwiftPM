@@ -33,12 +33,12 @@ let package = Package(
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.3/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "898f4af0c0298a451aaa1929f4e256496e55661539991c3c48c13379840d3b10"
+            checksum: "3a520154761a567ff10246c50d27440dde59488ad0d0a29203dfb5b4b6725fcd"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.3/live/TXSoundTouch.xcframework.zip",
-            checksum: "3ede6eb249dc8e68ad62ff4a20dd90064c98beb077763d308dee3741641eedcf"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.2/live/TXSoundTouch.xcframework.zip",
+            checksum: "787a52631475bb579b2d7c54b6ed3225b23ddfb7a8032e8c1187d57bb17c4575"
         ),.target(
             name: "Live_SwiftPM",
             dependencies: [
