@@ -22,23 +22,23 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "TXLiteAVSDK_Live",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.3/live/TXLiteAVSDK_Live.xcframework.zip",
-            checksum: "4b324e883520a7432bdad1b5dbec721e8b33c66cb4b4f03f82537412749b8c5f"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.4/live/TXLiteAVSDK_Live.xcframework.zip",
+            checksum: "8436e716ac1e0692924bc992491ed6c56f9c739361db2a2a554f2340e500ca27"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.3/live/TXFFmpeg.xcframework.zip",
-            checksum: "5ad545234a6d5c04033c31f0aa0081ca612ec9e884fb3c76d364932692aebe56"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.4/live/TXFFmpeg.xcframework.zip",
+            checksum: "0b175cefc5f1e0a7ab72b8891a28724e4e99be047026d76867c1993e8b8ab574"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.3/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "3a520154761a567ff10246c50d27440dde59488ad0d0a29203dfb5b4b6725fcd"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.4/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "f9740c8376e21a9acbc674621262074c9eaf0590df7c72b4715d2fde50fb8be6"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.2/live/TXSoundTouch.xcframework.zip",
-            checksum: "787a52631475bb579b2d7c54b6ed3225b23ddfb7a8032e8c1187d57bb17c4575"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.3/live/TXSoundTouch.xcframework.zip",
+            checksum: "3ede6eb249dc8e68ad62ff4a20dd90064c98beb077763d308dee3741641eedcf"
         ),.target(
             name: "Live_SwiftPM",
             dependencies: [
