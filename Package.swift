@@ -32,7 +32,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.5/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.5/live/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
             checksum: "9b7ea21587668f54df964ad2572db9729b5517e2359eb408883e5e8887ff6340"
         ),
         .binaryTarget(
