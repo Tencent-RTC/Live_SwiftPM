@@ -23,22 +23,22 @@ let package = Package(
         .binaryTarget(
             name: "TXLiteAVSDK_Live",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.8/live/TXLiteAVSDK_Live.xcframework.zip",
-            checksum: "e5760546a673f960a653a30a139bde85475bd99c89e90172a583df322277cb97"
+            checksum: "803223720a53345da480a01c6d0bfb3c5f1076b8f2ecf55acf1be7f9bc71848e"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.8/live/TXFFmpeg.xcframework.zip",
-            checksum: "36e60c1d7b14226ed987f97e770133fd04eab6d6616dd09088b35b5b0b5f9ab8"
+            checksum: "ee3ba455cfca69c209c6428f049161a79bdf04ee32895f41be0fa7a37c292e02"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.8/live/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "479b7b4429870c91b13d1909d8b1116ad9c7927f81cb2bfa694046303237b8eb"
+            checksum: "e2110946356a1a585c2689c3d2c3585438e25e8fbbaef4a8ecb4aa2aec6b1470"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.8/live/TXSoundTouch.xcframework.zip",
-            checksum: "1a2029d24f8be009406731c7534389f6d8b1ded212eb6b8cc51759d93402257a"
+            checksum: "76ee8dfc4a2dfaaa8fbf1a2e0ece1a0c5d7dc7e4d35aa5a928b02369e4bffd9f"
         ),.target(
             name: "Live_SwiftPM",
             dependencies: [
