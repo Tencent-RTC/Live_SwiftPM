@@ -22,23 +22,23 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "TXLiteAVSDK_Live",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.7/live/TXLiteAVSDK_Live.xcframework.zip",
-            checksum: "5a33bc44e990be3ea3f20627fb91bd8b811633494a1e0393ed1a21e7f482ad92"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.8/live/TXLiteAVSDK_Live.xcframework.zip",
+            checksum: "803223720a53345da480a01c6d0bfb3c5f1076b8f2ecf55acf1be7f9bc71848e"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.7/live/TXFFmpeg.xcframework.zip",
-            checksum: "ba9e408a6d55555a8cd321c96accd31a68b89dd619f894792c6118eeb10b5783"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.8/live/TXFFmpeg.xcframework.zip",
+            checksum: "ee3ba455cfca69c209c6428f049161a79bdf04ee32895f41be0fa7a37c292e02"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.7/live/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "0b5fca434cc7f909e28ed94ebc52ddf1c1b7d4ab4abc7abfdf03f8ae0a92a7bc"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.8/live/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "e2110946356a1a585c2689c3d2c3585438e25e8fbbaef4a8ecb4aa2aec6b1470"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.7/live/TXSoundTouch.xcframework.zip",
-            checksum: "1e4198d1a5869076079c0a85478a6b416f87894a457895dc108e10dc14e852f4"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.8/live/TXSoundTouch.xcframework.zip",
+            checksum: "76ee8dfc4a2dfaaa8fbf1a2e0ece1a0c5d7dc7e4d35aa5a928b02369e4bffd9f"
         ),.target(
             name: "Live_SwiftPM",
             dependencies: [
