@@ -25,6 +25,7 @@ let package = Package(
             url: "https://liteav.sdk.qcloud.com/download/spm/12.8/live/TXLiteAVSDK_Live.xcframework.zip",
             checksum: "c7c624b555762cf2427bf9e5b2fc9a99700f292c755f1b534dad012dd550b6cf"
         ),
+      
         .binaryTarget(
             name: "TXFFmpeg",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.8/live/TXFFmpeg.xcframework.zip",
