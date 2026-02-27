@@ -22,24 +22,24 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "TXLiteAVSDK_Live",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.9/live/TXLiteAVSDK_Live.xcframework.zip",
-            checksum: "ac6d38db83e0465233c4793b28fdd9e525faea311efa68d5c7bde639cef14d8b"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.0/live/TXLiteAVSDK_Live.xcframework.zip",
+            checksum: "13e2f27b2ac849daa1355343126e7451c2ed3b98701ebbef855bb07cbcf70d05"
         ),
       
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.9/live/TXFFmpeg.xcframework.zip",
-            checksum: "3db48a5e645d5a43f797149696b15e3d863cb0f0f931a1498d240490ac9db625"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.0/live/TXFFmpeg.xcframework.zip",
+            checksum: "1594f1c97e63c6108f9d328b382368be50b583592e52db1038547c8a5c4a598c"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.9/live/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "307e8425896f602881c532b65eebd53bfc725bd4bbe860fc56f6d0b150187908"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.0/live/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "8d7ee1ffd4fc37f0de4804964faf8d8c33010d86cf85c115b815961b09725d71"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.9/live/TXSoundTouch.xcframework.zip",
-            checksum: "33e1fff08468e2c020293d9a0c69110b3ae502888d4a9b0e9a792caf3b5a7776"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.0/live/TXSoundTouch.xcframework.zip",
+            checksum: "7223c95bfaca32b24553ec4f32a286b3c984a6898d9cb7f1beabc49fd2e18e26"
         ),.target(
             name: "Live_SwiftPM",
             dependencies: [
