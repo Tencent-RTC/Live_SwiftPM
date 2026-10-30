@@ -22,24 +22,24 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "TXLiteAVSDK_Live",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/live/13.5.0.21355/TXLiteAVSDK_Live.xcframework.zip",
-            checksum: "a8c8c765165703e988e7690ee50f1d3ae6c3b4fa6b6dac16ca1bd20566fd2f36"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.6/live/13.6.0.21648/TXLiteAVSDK_Live.xcframework.zip",
+            checksum: "b5dc8400f3a66488a5b5a4f67abd86f7729e241795711ed031cbd519f565fc52"
         ),
       
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/live/13.5.0.21355/TXFFmpeg.xcframework.zip",
-            checksum: "0b4ce46e52491cdbc4d13edfe734a41b05a37db13cc89953548cf472f0bfe58f"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.6/live/13.6.0.21648/TXFFmpeg.xcframework.zip",
+            checksum: "155a2f370e411a6eeb42e37a6c8a54d001418112e0f722d964c67c849cc9e1a5"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/live/13.5.0.21355/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "4391bb3cfa66617315a384c0ae2e6bd686fb91624173681e7e212660b81f0898"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.6/live/13.6.0.21648/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "adf649d9586657504607279472ded3ab726db7968e433049210747c0c6a70b88"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/live/13.5.0.21355/TXSoundTouch.xcframework.zip",
-            checksum: "72f19a2d604239e8a6c0ee0fd3d123d3e7790b741960c6e220c25704c78fcac5"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.6/live/13.6.0.21648/TXSoundTouch.xcframework.zip",
+            checksum: "d7a53b40c54ae18c90050199145e6f023045079465278ce99b7f457bf0dc00be"
         ),.target(
             name: "Live_SwiftPM",
             dependencies: [
